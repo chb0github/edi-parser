@@ -1,0 +1,303 @@
+<X12-Structure>
+    <Loop id="ROOT">
+        <Loop name="1000A">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>41</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="1000B">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>40</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2000A">
+            <startSegment id="HL">
+                <qualifier position="3">
+                    <value>20</value>
+                </qualifier>
+            </startSegment>
+            <Loop name="2010AA">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>85</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2010AB">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>87</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2010AC">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>PE</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+        </Loop>
+        <Loop name="2000B">
+            <startSegment id="HL">
+                <qualifier position="3">
+                    <value>22</value>
+                </qualifier>
+            </startSegment>
+            <Loop name="2010BA">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>IL</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2010BB">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>PR</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <LoopRef id="2300"/>
+        </Loop>
+        <Loop name="2000C">
+            <startSegment id="HL">
+                <qualifier position="3">
+                    <value>23</value>
+                </qualifier>
+            </startSegment>
+            <Loop name="2010CA">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>QC</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <LoopRef id="2300"/>
+        </Loop>
+    </Loop>
+
+    <Loop id="2300" name="2300">
+        <startSegment id="CLM"/>
+        <Loop name="2305">
+            <startSegment id="CR7"/>
+        </Loop>
+        <Loop name="2310A">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>71</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2310B">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>72</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2310C">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>ZZ</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2310D">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>82</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2310E">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>77</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2310F">
+            <startSegment id="NM1">
+                <qualifier position="1">
+                    <value>DN</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2320">
+            <startSegment id="SRB"/>
+            <Loop name="2330A">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>IL</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330B">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>PR</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330C">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>71</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330D">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>72</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330E">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>ZZ</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330F">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>77</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330G">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>82</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330H">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>DN</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2330I">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>85</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+        </Loop>
+        <Loop name="2400">
+            <startSegment id="LX"/>
+            <Loop name="2410">
+                <startSegment id="LIN"/>
+            </Loop>
+            <Loop name="2420A">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>72</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2420B">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>ZZ</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2420C">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>82</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2420D">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>DN</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2430">
+                <startSegment id="SVD"/>
+            </Loop>
+            <Loop name="2440">
+                <startSegment id="LQ"/>
+            </Loop>
+        </Loop>
+    </Loop>
+<!--
+    <AttributeDefinition>
+        <name>AMT</name>
+        <position>1</position>
+    </AttributeDefinition>
+
+    <AttributeDefinition>
+        <name>HI01</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI02</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI03</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI04</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI05</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI06</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI07</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI08</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI09</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI10</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI11</name>
+        <position>1</position>
+    </AttributeDefinition>
+    <AttributeDefinition>
+        <name>HI12</name>
+        <position>1</position>
+    </AttributeDefinition>
+
+    <AttributeDefinition>
+        <name>DTP</name>
+        <position>1</position>
+    </AttributeDefinition>
+
+    <AttributeDefinition>
+        <name>CAS</name>
+        <position>1</position>
+    </AttributeDefinition>
+-->
+</X12-Structure>

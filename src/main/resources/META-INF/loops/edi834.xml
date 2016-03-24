@@ -1,0 +1,155 @@
+<X12-Structure>
+    <Loop id="ROOT">
+        <Loop name="1000A">
+            <startSegment id="N1">
+                <qualifier position="1">
+                    <value>P5</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="1000B">
+            <startSegment id="N1">
+                <qualifier position="1">
+                    <value>IN</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="1000C">
+            <startSegment id="N1">
+                <qualifier position="1">
+                    <value>BO</value>
+                    <value>TV</value>
+                </qualifier>
+            </startSegment>
+            <Loop id="1100" name="1100">
+                <startSegment id="ACT"/>
+            </Loop>
+        </Loop>
+        <Loop name="2000">
+            <startSegment id="INS"/>
+            <Loop name="2100A">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>74</value>
+                        <value>IL</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100B">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>70</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100C">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>31</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100D">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>36</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100E">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>M8</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100F">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>S3</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100G">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>6Y</value>
+                        <value>9K</value>
+                        <value>E1</value>
+                        <value>EI</value>
+                        <value>EXS</value>
+                        <value>GB</value>
+                        <value>GD</value>
+                        <value>J6</value>
+                        <value>LR</value>
+                        <value>QD</value>
+                        <value>S1</value>
+                        <value>TZ</value>
+                        <value>X4</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2100H">
+                <startSegment id="NM1">
+                    <qualifier position="1">
+                        <value>45</value>
+                    </qualifier>
+                </startSegment>
+            </Loop>
+            <Loop name="2200">
+                <startSegment id="DSB"/>
+            </Loop>
+            <Loop name="2300">
+                <startSegment id="HD"/>
+                <Loop name="2310">
+                    <startSegment id="LX"/>
+                    <continueSegment>NM1</continueSegment>
+                </Loop>
+                <Loop name="2320">
+                    <startSegment id="COB"/>
+                    <Loop name="2330">
+                        <startSegment id="NM1"/>
+                    </Loop>
+                </Loop>
+            </Loop>
+            <Loop name="2400">
+                <startSegment id="LC"/>
+                <Loop name="2410">
+                    <startSegment id="BEN"/>
+                </Loop>
+            </Loop>
+            <Loop name="2500">
+                <startSegment id="FSA"/>
+            </Loop>
+            <Loop name="2600">
+                <startSegment id="RP"/>
+                <Loop name="2610">
+                    <startSegment id="NM1"/>
+                    <Loop name="2620">
+                        <startSegment id="NX1"/>
+                    </Loop>
+                </Loop>
+                <Loop name="2630">
+                    <startSegment id="FC"/>
+                    <Loop name="2640">
+                        <startSegment id="INV"/>
+                    </Loop>
+                </Loop>
+                <Loop name="2650">
+                    <startSegment id="AIN"/>
+                </Loop>
+            </Loop>
+            <Loop name="2700">
+                <startSegment id="LS">
+                    <qualifier position="1">
+                        <value>2700</value>
+                    </qualifier>
+                </startSegment>
+
+                <Loop name="2750">
+                    <startSegment id="N1"/>
+                </Loop>
+            </Loop>
+        </Loop>
+    </Loop>
+</X12-Structure>

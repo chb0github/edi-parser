@@ -1,0 +1,77 @@
+ISA~00~          ~00~          ~ZZ~ANTHEM         ~ZZ~FACETS         ~110207~1159~*~00501~000000515~0~T~\
+GS~HC~ANTHEM~FACETS~20110926~124600~515~X~005010X223A2
+ST~837~0001~005010X223A2
+BHT~0019~00~524~20111207~1323~CH
+NM1~41~2~JONES HOSPITAL~~~~~46~12345
+PER~IC~Name~TE~5717686054~EM~94340@mwt.uqj
+NM1~40~2~BLUE CROSS~~~~~46~00879
+HL~1~~20~1
+PRV~BI~PXC~282N00000X
+NM1~85~2~JONES HOSPITAL~~~~~XX~1104929223
+N3~225 MAIN STREET~Address Information
+N4~ANYWHERE~PA~171110001
+REF~EI~123456789
+PER~IC~Name~TE~8934976008~EM~18589@hvg.yqr
+NM1~87~2
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+HL~2~1~22~0
+SBR~P~18~ID970896~~~~~~BL
+NM1~IL~1~DOE~JOHN~T~~~MI~030005074
+N3~125 CITY AVENUE~Address Information
+N4~ANYWHERE~PA~17111
+DMG~D8~20070407~F~B~7\RET\1000-9*7\RET\1000-9*7\RET\1000-9*7\RET\1000-9~1~~~~REC~Industry Code
+REF~Y4~Reference Identification
+NM1~PR~2~TRICARE~~~~~PI~99999
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+CLM~756048Q~446~~~11\A\1~~C~Y~Y~~~~~~~~~~~1
+DTP~096~TM~1515
+DTP~434~RD8~20091031-20111203
+DTP~435~DT~201110311408
+CL1~1~4~09
+REF~4N~1
+REF~9F~Reference Identification
+REF~G1~Reference Identification
+REF~9A~Reference Identification
+REF~9C~Reference Identification
+REF~LX~Reference Identification
+REF~LU~AA
+REF~EA~Reference Identification
+REF~P4~CLID:625536559098
+REF~G4~Reference Identification
+NTE~ALG~Description
+NTE~ADD~Description
+HI~BK\0010\\\\\\\W
+HI~BJ\0011
+HI~DR\001
+HI~BF\0271\\\\\\\Y~BF\0020\\\\\\\U~BF\0021\\\\\\\U~BF\0022\\\\\\\Y~BF\0023\\\\\\\N~BF\0029\\\\\\\U~BF\0031\\\\\\\U~BF\00320\\\\\\\Y~BF\00321\\\\\\\Y~BF\00322\\\\\\\W~BF\00323\\\\\\\Y~BF\00324\\\\\\\N
+HI~BF\00329\\\\\\\Y~BF\0038\\\\\\\U~BF\0070\\\\\\\N~BF\0071\\\\\\\W~BF\0072\\\\\\\N~BF\0073\\\\\\\Y~BF\0074\\\\\\\U~BF\0075\\\\\\\Y~BF\0079\\\\\\\U~BF\03640\\\\\\\N~BF\03641\\\\\\\U~BF\03642\\\\\\\U
+HI~BE\01\\\10
+NM1~71~1~Joseph~Kirk~~~~XX~1366403644
+PRV~AT~PXC~208000000X
+LX~1
+SV2~0305~HC\85025\\\\\Description~208~UN~1~~192
+DTP~472~D8~20110131
+REF~9B~Reference Identification
+REF~9D~Reference Identification
+AMT~GT~208
+AMT~N8~208
+NTE~TPO~Description
+LIN~~N4~00002060440
+CTP~~~~2645~F2
+REF~VY~Reference Identification
+LX~2
+SV2~0730~HC\93010\\\\\Description~238~UN~3~~226
+DTP~472~D8~20110131
+REF~9B~Reference Identification
+REF~9D~Reference Identification
+AMT~GT~238
+AMT~N8~238
+NTE~TPO~Description
+LIN~~N4~00002060440
+CTP~~~~2110230898~F2
+REF~VY~Reference Identification
+SE~73~0001
+GE~1~515
+IEA~1~000000515

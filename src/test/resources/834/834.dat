@@ -1,0 +1,80 @@
+ISA~00~Authorizat~00~Security I~ZZ~Interchange Sen~ZZ~Interchange Rec~110201~1211~*~00501~000000001~0~P~\
+GS~BE~Application Sen~Application Rec~20110201~121105~1~X~005010X220A1
+ST~834~0001~005010X220A1
+BGN~00~Reference Identification~20110201~12110500~01~Reference Identification~~2
+REF~38~Reference Identification
+DTP~007~D8~20020202
+QTY~DT~1498019
+N1~P5~Sponsor Name~24~Identification Code
+N1~IN~Payer Name~94~Identification Code
+N1~BO~TPA/Broker Name~94~Identification Code
+ACT~Account Number~~~~~Account Number
+INS~N~01~001~01~A~A\0~1~AC~F~N~D8~20090808~R~~~~15827297
+REF~0F~Reference Identification
+REF~1L~Reference Identification
+REF~17~0100052
+DTP~050~D8~20060807
+NM1~74~1~Member Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~Identification Code
+PER~IP~~AP~Communication Number~AP~Communication Number~AP~Communication Number
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004~60~Location Identifier
+DMG~D8~20070407~F~B~7\RET\1000-9*7\RET\1000-9*7\RET\1000-9*7\RET\1000-9~1~~~~REC~Industry Code
+EC~02~03~01
+ICM~1~41164845~1~Location Identifier~Salar
+AMT~R~98432245921672239
+HLH~N~3970275~163591682
+LUI~LD~AAR~Description~5
+NM1~70~1~Incorrect Member Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~Identification Code
+DMG~D8~20080806~F~B~7\RET\1000-9~1~~~~REC~Industry Code
+NM1~31~1
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+NM1~36~1~Member Employer Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~24~Identification Code
+PER~EP~Name~AP~Communication Number~AP~Communication Number~AP~Communication Number
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+NM1~M8~2~Name Last or Organization Name
+PER~SK~Name~EM~Communication Number~EM~Communication Number~EM~Communication Number
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+NM1~S3~1~Custodial Parent Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~Identification Code
+PER~PQ~~AP~Communication Number~AP~Communication Number~AP~Communication Number
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+NM1~6Y~1~Responsible Person Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~Identification Code
+PER~RP~~AP~Communication Number~AP~Communication Number~AP~Communication Number
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+NM1~45~1~Drop Off Location Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+DSB~1~~~~~~DX~A000
+DTP~360~D8~20060506
+HD~001~~AG~Plan Coverage Description~CHD~~~~N
+DTP~300~D8~20010203
+AMT~R~1812
+REF~17~Reference Identification
+REF~QQ~Reference Identification
+IDC~Plan Coverage Description~D~743432~1
+LX~1054
+NM1~1X~1~Provider Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~Identification Code~25
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+PER~IC~~AP~Communication Number~AP~Communication Number~AP~Communication Number
+PLA~2~1P~20110201~~14
+COB~P~Reference Identification~1~1
+REF~60~Reference Identification
+DTP~344~D8~20050406
+NM1~36~2~CoB related entity Name Last or Organization Name~~~~~FI~Identification Code
+N3~Address Information~Address Information
+N4~City Name~AA~00501~004
+PER~CN~~TE~Communication Number
+LS~2700
+LX~2262
+N1~75~Reporting Category Name
+REF~00~Reference Identification
+DTP~007~D8~20040505
+LE~2700
+SE~76~0001
+GE~1~1
+IEA~1~000000001

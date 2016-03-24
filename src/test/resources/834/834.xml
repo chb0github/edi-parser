@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edi834>
+   <ISA segmentDelimiter="&#xD;&#xA;" elementDelimiter="~" compositeDelimiter="\"
+        repetitionSeparator="*">
+      <ISA01>00</ISA01>
+      <ISA02>Authorizat</ISA02>
+      <ISA03>00</ISA03>
+      <ISA04>Security I</ISA04>
+      <ISA05>ZZ</ISA05>
+      <ISA06>Interchange Sen</ISA06>
+      <ISA07>ZZ</ISA07>
+      <ISA08>Interchange Rec</ISA08>
+      <ISA09>110201</ISA09>
+      <ISA10>1211</ISA10>
+      <ISA12>00501</ISA12>
+      <ISA13>000000001</ISA13>
+      <ISA14>0</ISA14>
+      <ISA15>P</ISA15>
+      <ISA16/>
+      <GS>
+         <GS01>BE</GS01>
+         <GS02>Application Sen</GS02>
+         <GS03>Application Rec</GS03>
+         <GS04>20110201</GS04>
+         <GS05>121105</GS05>
+         <GS06>1</GS06>
+         <GS07>X</GS07>
+         <GS08>005010X220A1</GS08>
+         <ST>
+            <ST01>834</ST01>
+            <ST02>0001</ST02>
+            <ST03>005010X220A1</ST03>
+            <BGN>
+               <BGN01>00</BGN01>
+               <BGN02>Reference Identification</BGN02>
+               <BGN03>20110201</BGN03>
+               <BGN04>12110500</BGN04>
+               <BGN05>01</BGN05>
+               <BGN06>Reference Identification</BGN06>
+               <BGN08>2</BGN08>
+            </BGN>
+            <REF>
+               <REF01>38</REF01>
+               <REF02>Reference Identification</REF02>
+            </REF>
+            <DTP>
+               <DTP01>007</DTP01>
+               <DTP02>D8</DTP02>
+               <DTP03>20020202</DTP03>
+            </DTP>
+            <QTY>
+               <QTY01>DT</QTY01>
+               <QTY02>1498019</QTY02>
+            </QTY>
+            <Loop1000>
+               <N1>
+                  <N101>P5</N101>
+                  <N102>Sponsor Name</N102>
+                  <N103>24</N103>
+                  <N104>Identification Code</N104>
+               </N1>
+            </Loop1000>
+            <Loop1000>
+               <N1>
+                  <N101>IN</N101>
+                  <N102>Payer Name</N102>
+                  <N103>94</N103>
+                  <N104>Identification Code</N104>
+               </N1>
+            </Loop1000>
+            <Loop1000>
+               <N1>
+                  <N101>BO</N101>
+                  <N102>TPA/Broker Name</N102>
+                  <N103>94</N103>
+                  <N104>Identification Code</N104>
+               </N1>
+               <Loop1100>
+                  <ACT>
+                     <ACT01>Account Number</ACT01>
+                     <ACT06>Account Number</ACT06>
+                  </ACT>
+               </Loop1100>
+            </Loop1000>
+            <Loop2000>
+               <INS>
+                  <INS01>N</INS01>
+                  <INS02>01</INS02>
+                  <INS03>001</INS03>
+                  <INS04>01</INS04>
+                  <INS05>A</INS05>
+                  <INS06>
+                     <C01>A</C01>
+                     <C02>0</C02>
+                  </INS06>
+                  <INS07>1</INS07>
+                  <INS08>AC</INS08>
+                  <INS09>F</INS09>
+                  <INS10>N</INS10>
+                  <INS11>D8</INS11>
+                  <INS12>20090808</INS12>
+                  <INS13>R</INS13>
+                  <INS17>15827297</INS17>
+               </INS>
+               <REF>
+                  <REF01>0F</REF01>
+                  <REF02>Reference Identification</REF02>
+               </REF>
+               <REF>
+                  <REF01>1L</REF01>
+                  <REF02>Reference Identification</REF02>
+               </REF>
+               <REF>
+                  <REF01>17</REF01>
+                  <REF02>0100052</REF02>
+               </REF>
+               <DTP>
+                  <DTP01>050</DTP01>
+                  <DTP02>D8</DTP02>
+                  <DTP03>20060807</DTP03>
+               </DTP>
+               <Loop2100>
+                  <NM1>
+                     <NM101>74</NM101>
+                     <NM102>1</NM102>
+                     <NM103>Member Name Last or Organization Name</NM103>
+                     <NM104>Name First</NM104>
+                     <NM105>Name Middle</NM105>
+                     <NM106>Name Prefi</NM106>
+                     <NM107>Name Suffi</NM107>
+                     <NM108>34</NM108>
+                     <NM109>Identification Code</NM109>
+                  </NM1>
+                  <PER>
+                     <PER01>IP</PER01>
+                     <PER03>AP</PER03>
+                     <PER04>Communication Number</PER04>
+                     <PER05>AP</PER05>
+                     <PER06>Communication Number</PER06>
+                     <PER07>AP</PER07>
+                     <PER08>Communication Number</PER08>
+                  </PER>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                     <N405>60</N405>
+                     <N406>Location Identifier</N406>
+                  </N4>
+                  <DMG>
+                     <DMG01>D8</DMG01>
+                     <DMG02>20070407</DMG02>
+                     <DMG03>F</DMG03>
+                     <DMG04>B</DMG04>
+                     <DMG05>
+                        <C01>7</C01>
+                        <C02>RET</C02>
+                        <C03>1000-9</C03>
+                     </DMG05>
+                     <DMG05>
+                        <C01>7</C01>
+                        <C02>RET</C02>
+                        <C03>1000-9</C03>
+                     </DMG05>
+                     <DMG05>
+                        <C01>7</C01>
+                        <C02>RET</C02>
+                        <C03>1000-9</C03>
+                     </DMG05>
+                     <DMG05>
+                        <C01>7</C01>
+                        <C02>RET</C02>
+                        <C03>1000-9</C03>
+                     </DMG05>
+                     <DMG06>1</DMG06>
+                     <DMG10>REC</DMG10>
+                     <DMG11>Industry Code</DMG11>
+                  </DMG>
+                  <EC>
+                     <EC01>01</EC01>
+                     <EC02>01</EC02>
+                     <EC03>01</EC03>
+                  </EC>
+                  <ICM>
+                     <ICM01>1</ICM01>
+                     <ICM02>41164845</ICM02>
+                     <ICM03>1</ICM03>
+                     <ICM04>Location Identifier</ICM04>
+                     <ICM05>Salar</ICM05>
+                  </ICM>
+                  <AMT>
+                     <AMT01>R</AMT01>
+                     <AMT02>98432245921672239</AMT02>
+                  </AMT>
+                  <HLH>
+                     <HLH01>N</HLH01>
+                     <HLH02>3970275</HLH02>
+                     <HLH03>163591682</HLH03>
+                  </HLH>
+                  <LUI>
+                     <LUI01>LD</LUI01>
+                     <LUI02>AAR</LUI02>
+                     <LUI03>Description</LUI03>
+                     <LUI04>5</LUI04>
+                  </LUI>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>70</NM101>
+                     <NM102>1</NM102>
+                     <NM103>Incorrect Member Name Last or Organization Name</NM103>
+                     <NM104>Name First</NM104>
+                     <NM105>Name Middle</NM105>
+                     <NM106>Name Prefi</NM106>
+                     <NM107>Name Suffi</NM107>
+                     <NM108>34</NM108>
+                     <NM109>Identification Code</NM109>
+                  </NM1>
+                  <DMG>
+                     <DMG01>D8</DMG01>
+                     <DMG02>20080806</DMG02>
+                     <DMG03>F</DMG03>
+                     <DMG04>B</DMG04>
+                     <DMG05>
+                        <C01>7</C01>
+                        <C02>RET</C02>
+                        <C03>1000-9</C03>
+                     </DMG05>
+                     <DMG06>1</DMG06>
+                     <DMG10>REC</DMG10>
+                     <DMG11>Industry Code</DMG11>
+                  </DMG>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>31</NM101>
+                     <NM102>1</NM102>
+                  </NM1>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                  </N4>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>36</NM101>
+                     <NM102>1</NM102>
+                     <NM103>Member Employer Name Last or Organization Name</NM103>
+                     <NM104>Name First</NM104>
+                     <NM105>Name Middle</NM105>
+                     <NM106>Name Prefi</NM106>
+                     <NM107>Name Suffi</NM107>
+                     <NM108>24</NM108>
+                     <NM109>Identification Code</NM109>
+                  </NM1>
+                  <PER>
+                     <PER01>EP</PER01>
+                     <PER02>Name</PER02>
+                     <PER03>AP</PER03>
+                     <PER04>Communication Number</PER04>
+                     <PER05>AP</PER05>
+                     <PER06>Communication Number</PER06>
+                     <PER07>AP</PER07>
+                     <PER08>Communication Number</PER08>
+                  </PER>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                  </N4>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>M8</NM101>
+                     <NM102>2</NM102>
+                     <NM103>Name Last or Organization Name</NM103>
+                  </NM1>
+                  <PER>
+                     <PER01>SK</PER01>
+                     <PER02>Name</PER02>
+                     <PER03>EM</PER03>
+                     <PER04>Communication Number</PER04>
+                     <PER05>EM</PER05>
+                     <PER06>Communication Number</PER06>
+                     <PER07>EM</PER07>
+                     <PER08>Communication Number</PER08>
+                  </PER>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                  </N4>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>S3</NM101>
+                     <NM102>1</NM102>
+                     <NM103>Custodial Parent Name Last or Organization Name</NM103>
+                     <NM104>Name First</NM104>
+                     <NM105>Name Middle</NM105>
+                     <NM106>Name Prefi</NM106>
+                     <NM107>Name Suffi</NM107>
+                     <NM108>34</NM108>
+                     <NM109>Identification Code</NM109>
+                  </NM1>
+                  <PER>
+                     <PER01>PQ</PER01>
+                     <PER03>AP</PER03>
+                     <PER04>Communication Number</PER04>
+                     <PER05>AP</PER05>
+                     <PER06>Communication Number</PER06>
+                     <PER07>AP</PER07>
+                     <PER08>Communication Number</PER08>
+                  </PER>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                  </N4>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>6Y</NM101>
+                     <NM102>1</NM102>
+                     <NM103>Responsible Person Name Last or Organization Name</NM103>
+                     <NM104>Name First</NM104>
+                     <NM105>Name Middle</NM105>
+                     <NM106>Name Prefi</NM106>
+                     <NM107>Name Suffi</NM107>
+                     <NM108>34</NM108>
+                     <NM109>Identification Code</NM109>
+                  </NM1>
+                  <PER>
+                     <PER01>RP</PER01>
+                     <PER03>AP</PER03>
+                     <PER04>Communication Number</PER04>
+                     <PER05>AP</PER05>
+                     <PER06>Communication Number</PER06>
+                     <PER07>AP</PER07>
+                     <PER08>Communication Number</PER08>
+                  </PER>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                  </N4>
+               </Loop2100>
+               <Loop2100>
+                  <NM1>
+                     <NM101>45</NM101>
+                     <NM102>1</NM102>
+                     <NM103>Drop Off Location Name Last or Organization Name</NM103>
+                     <NM104>Name First</NM104>
+                     <NM105>Name Middle</NM105>
+                     <NM106>Name Prefi</NM106>
+                     <NM107>Name Suffi</NM107>
+                  </NM1>
+                  <N3>
+                     <N301>Address Information</N301>
+                     <N302>Address Information</N302>
+                  </N3>
+                  <N4>
+                     <N401>City Name</N401>
+                     <N402>AA</N402>
+                     <N403>00501</N403>
+                     <N404>004</N404>
+                  </N4>
+               </Loop2100>
+               <Loop2200>
+                  <DSB>
+                     <DSB01>1</DSB01>
+                     <DSB07>DX</DSB07>
+                     <DSB08>A000</DSB08>
+                  </DSB>
+                  <DTP>
+                     <DTP01>360</DTP01>
+                     <DTP02>D8</DTP02>
+                     <DTP03>20060506</DTP03>
+                  </DTP>
+               </Loop2200>
+               <Loop2300>
+                  <HD>
+                     <HD01>001</HD01>
+                     <HD03>AG</HD03>
+                     <HD04>Plan Coverage Description</HD04>
+                     <HD05>CHD</HD05>
+                     <HD09>N</HD09>
+                  </HD>
+                  <DTP>
+                     <DTP01>300</DTP01>
+                     <DTP02>D8</DTP02>
+                     <DTP03>20010203</DTP03>
+                  </DTP>
+                  <AMT>
+                     <AMT01>R</AMT01>
+                     <AMT02>1812</AMT02>
+                  </AMT>
+                  <REF>
+                     <REF01>17</REF01>
+                     <REF02>Reference Identification</REF02>
+                  </REF>
+                  <REF>
+                     <REF01>QQ</REF01>
+                     <REF02>Reference Identification</REF02>
+                  </REF>
+                  <IDC>
+                     <IDC01>Plan Coverage Description</IDC01>
+                     <IDC02>D</IDC02>
+                     <IDC03>743432</IDC03>
+                     <IDC04>1</IDC04>
+                  </IDC>
+                  <Loop2310>
+                     <LX>
+                        <LX01>1054</LX01>
+                     </LX>
+                     <NM1>
+                        <NM101>1X</NM101>
+                        <NM102>1</NM102>
+                        <NM103>Provider Name Last or Organization Name</NM103>
+                        <NM104>Name First</NM104>
+                        <NM105>Name Middle</NM105>
+                        <NM106>Name Prefi</NM106>
+                        <NM107>Name Suffi</NM107>
+                        <NM108>34</NM108>
+                        <NM109>Identification Code</NM109>
+                        <NM110>25</NM110>
+                     </NM1>
+                     <N3>
+                        <N301>Address Information</N301>
+                        <N302>Address Information</N302>
+                     </N3>
+                     <N4>
+                        <N401>City Name</N401>
+                        <N402>AA</N402>
+                        <N403>00501</N403>
+                        <N404>004</N404>
+                     </N4>
+                     <PER>
+                        <PER01>IC</PER01>
+                        <PER03>AP</PER03>
+                        <PER04>Communication Number</PER04>
+                        <PER05>AP</PER05>
+                        <PER06>Communication Number</PER06>
+                        <PER07>AP</PER07>
+                        <PER08>Communication Number</PER08>
+                     </PER>
+                     <PLA>
+                        <PLA01>2</PLA01>
+                        <PLA02>1P</PLA02>
+                        <PLA03>20110201</PLA03>
+                        <PLA05>14</PLA05>
+                     </PLA>
+                  </Loop2310>
+                  <Loop2320>
+                     <COB>
+                        <COB01>P</COB01>
+                        <COB02>Reference Identification</COB02>
+                        <COB03>1</COB03>
+                        <COB04>1</COB04>
+                     </COB>
+                     <REF>
+                        <REF01>60</REF01>
+                        <REF02>Reference Identification</REF02>
+                     </REF>
+                     <DTP>
+                        <DTP01>344</DTP01>
+                        <DTP02>D8</DTP02>
+                        <DTP03>20050406</DTP03>
+                     </DTP>
+                     <Loop2330>
+                        <NM1>
+                           <NM101>36</NM101>
+                           <NM102>2</NM102>
+                           <NM103>CoB related entity Name Last or Organization Name</NM103>
+                           <NM108>FI</NM108>
+                           <NM109>Identification Code</NM109>
+                        </NM1>
+                        <N3>
+                           <N301>Address Information</N301>
+                           <N302>Address Information</N302>
+                        </N3>
+                        <N4>
+                           <N401>City Name</N401>
+                           <N402>AA</N402>
+                           <N403>00501</N403>
+                           <N404>004</N404>
+                        </N4>
+                        <PER>
+                           <PER01>CN</PER01>
+                           <PER03>TE</PER03>
+                           <PER04>Communication Number</PER04>
+                        </PER>
+                     </Loop2330>
+                  </Loop2320>
+               </Loop2300>
+               <LoopLS>
+                  <LS>
+                     <LS01>2700</LS01>
+                  </LS>
+                  <Loop2700>
+                     <LX>
+                        <LX01>2262</LX01>
+                     </LX>
+                     <Loop2750>
+                        <N1>
+                           <N101>75</N101>
+                           <N102>Reporting Category Name</N102>
+                        </N1>
+                        <REF>
+                           <REF01>00</REF01>
+                           <REF02>Reference Identification</REF02>
+                        </REF>
+                        <DTP>
+                           <DTP01>007</DTP01>
+                           <DTP02>D8</DTP02>
+                           <DTP03>20040505</DTP03>
+                        </DTP>
+                        <LE>
+                           <LE01>2700</LE01>
+                        </LE>
+                     </Loop2750>
+                  </Loop2700>
+               </LoopLS>
+            </Loop2000>
+         </ST>
+      </GS>
+   </ISA>
+</edi834>

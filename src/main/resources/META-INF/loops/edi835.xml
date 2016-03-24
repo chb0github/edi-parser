@@ -1,0 +1,27 @@
+<X12-Structure loopsEnd="PLB">
+    <Loop id="ROOT">
+        <Loop name="1000A">
+            <startSegment id="N1">
+                <qualifier position="1">
+                    <value>PR</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="1000B">
+            <startSegment id="N1">
+                <qualifier position="1">
+                    <value>PE</value>
+                </qualifier>
+            </startSegment>
+        </Loop>
+        <Loop name="2000">
+            <startSegment id="LX"/>
+            <Loop name="2100">
+                <startSegment id="CLP"/>
+                <Loop name="2110">
+                    <startSegment id="SVC"/>
+                </Loop>
+            </Loop>
+        </Loop>
+    </Loop>
+</X12-Structure>

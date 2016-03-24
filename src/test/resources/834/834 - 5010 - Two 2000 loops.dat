@@ -1,0 +1,151 @@
+ISA~00~Authorizat~00~Security I~ZZ~Interchange Sen~ZZ~Interchange Rec~110425~1701~^~00501~000000001~0~P~\
+GS~BE~Application Sen~Application Rec~20110425~1701~1~X~005010X220
+ST~834~0001~005010X220
+BGN~00~Reference Identification~20110425~1701~01~~~2
+REF~38~Reference Identification
+DTP~007~D8~20100101
+QTY~DT~1
+QTY~ET~1
+QTY~TO~2
+N1~P5~Name~24~111111111
+N1~IN~Name~94~Identification Code
+N1~BO~Name~94~Identification Code
+ACT~Account Number~~~~~Account Number2
+INS~Y~18~001~01~A~A\0~1~AC~~N~D8~20100202~R~~~~2
+REF~0F~Reference Identification
+REF~1L~5555555555
+REF~17~0100052
+DTP~050~D8~20100101
+NM1~74~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~IP~~AP~1111111111~BN~Communication Number~CP~2222222222
+N3~Address Information~Address Information
+N4~City Name~BC~111111~CA~60~Location Identifier
+DMG~D8~20000101~F~B~7\RET\1000-9~1~~~~REC~Industry Code
+EC~01~03~08
+ICM~1~20~319561384~Location Identifier~Salar
+AMT~R~10
+LUI~LD~AAR~~5
+NM1~70~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+DMG~D8~20000101~F~A~7\0\1000-9~1~~~~0~Industry Code
+NM1~31~1
+N3~123Address~Address Information
+N4~City Name~TX~00501
+NM1~36~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~EP~Name~AP~1111111111~BN~Communication Number~CP~1111111111
+N3~Address Information~Address Information
+N4~City Name~TX~00501
+NM1~M8~2~Name Last or Organization Name
+PER~SK~Name~TE~1111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+NM1~S3~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~PQ~~AP~1111111111~BN~Communication Number~CP~1111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+NM1~6Y~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~RP~~AP~1111111111~AP~1111111111~AP~1111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+NM1~45~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+DSB~1~~~~~~DX~5851
+DTP~360~D8~20100101
+HD~001~~AG~Plan Coverage Description~CHD~~~~N
+DTP~300~D8~20100101
+AMT~R~2905
+REF~17~Reference Identification
+REF~QQ~11
+IDC~Plan Coverage Description~D~309722~1
+LX~1
+NM1~1X~2~LAB1~~~~~XX~1234567893~25
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+PER~IC~~AP~1111111111~CP~1111111111~BN~Communication Number
+PLA~2~1P~20110425~~14
+LX~2
+NM1~1X~2~LAB2~~~~~XX~1234567893~25
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+PER~IC~~AP~1111111111~CP~1111111111~BN~Communication Number
+PLA~2~1P~20110425~~14
+COB~P~Reference Identification~1~1
+REF~60~Reference Identification
+DTP~344~D8~20100101
+NM1~36~2~~~~~~FI~111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+PER~CN~~TE~1111111111
+LS~2700
+LX~1
+N1~75~Name
+REF~00~Reference Identification
+DTP~007~D8~20100101
+LE~2700
+INS~N~01~001~01~A~A\0~1~~F~N~D8~20100202~R~~~~2
+REF~0F~Reference Identification
+REF~1L~5555555555
+REF~17~0100052
+DTP~050~D8~20100101
+NM1~74~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~IP~~AP~1111111111~BN~Communication Number~CP~2222222222
+N3~Address Information~Address Information
+N4~City Name~BC~111111~CA~60~Location Identifier
+DMG~D8~20000101~F~~7\RET\1000-9~~~~~REC~Industry Code
+ICM~1~20~319561384~Location Identifier~Salar
+AMT~R~10
+LUI~LD~AAR~~5
+NM1~70~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+DMG~D8~20000101~F~A~7\0\1000-9~1~~~~0~Industry Code
+NM1~31~1
+N3~123Address~Address Information
+N4~City Name~TX~00501
+NM1~36~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~EP~Name~AP~1111111111~BN~Communication Number~CP~1111111111
+N3~Address Information~Address Information
+N4~City Name~TX~00501
+NM1~M8~2~Name Last or Organization Name
+PER~SK~Name~TE~1111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+NM1~S3~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~PQ~~AP~1111111111~BN~Communication Number~CP~1111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+NM1~6Y~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi~34~111111111
+PER~RP~~AP~1111111111~AP~1111111111~AP~1111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+NM1~45~1~Name Last or Organization Name~Name First~Name Middle~Name Prefi~Name Suffi
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+DSB~1~~~~~~DX~5851
+DTP~360~D8~20100101
+HD~001~~AG~Plan Coverage Description~CHD~~~~N
+DTP~300~D8~20100101
+AMT~R~2905
+REF~17~Reference Identification
+REF~QQ~11
+IDC~Plan Coverage Description~D~309722~1
+LX~1
+NM1~1X~1~~~~~~XX~1234567893~25
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+PER~IC~~AP~1111111111~CP~1111111111~BN~Communication Number
+PLA~2~1P~20110425~~14
+COB~P~Reference Identification~1~1
+REF~60~Reference Identification
+DTP~344~D8~20100101
+NM1~36~2~~~~~~FI~111111111
+N3~Address Information~Address Information
+N4~City Name~AA~00501
+PER~CN~~TE~1111111111
+LS~2700
+LX~1
+N1~75~Name
+REF~00~Reference Identification
+DTP~007~D8~20100101
+LE~2700
+SE~147~0001
+GE~1~1
+IEA~1~000000001
